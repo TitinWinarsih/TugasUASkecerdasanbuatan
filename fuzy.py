@@ -32,7 +32,7 @@ class BentukAlbum():
 
 class BahanAlbum():
     halus = 40
-    kasar = 30
+    kasar = 20
     jelas = 30
 
     def sedikit(self, x):
