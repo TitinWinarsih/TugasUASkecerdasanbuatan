@@ -108,7 +108,7 @@ class versiAlbum():
     def cukup(self, x):
         if self.repackage < x < self.lunatic:
             return up(x, self.repackage, self.lunatic)
-        elif self.holiday1 < x < self.holiday1:
+        elif self.repackage < x < self.holiday1:
             return down(x, self.lunatic, self.holiday1)
         elif x == self.lunatic:
             return 1
