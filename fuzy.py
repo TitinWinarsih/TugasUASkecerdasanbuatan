@@ -15,7 +15,7 @@ class BentukAlbum():
     def pas(self, x):
         if self.kotak < x < self.bulat:
             return atas(x, self.kotak, self.bulat)
-        elif self.segitiga < x < self.persegipanjang:
+        elif self.bulat < x < self.persegipanjang:
             return bawah(x, self.bulat, self.persegipanjang)
         elif x == self.bulat:
             return 1
@@ -30,7 +30,7 @@ class BentukAlbum():
         else:
             return up(x, self.persegipanjang, self.bulat)
 
-class BahanAlbum():
+class teksturAlbum():
     halus = 40
     kasar = 20
     jelas = 30
