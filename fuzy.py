@@ -62,9 +62,9 @@ class BahanAlbum():
             return up(x, self.kasar, self.jelas)
 
 class WarnaAlbum():
-    putih = 30
+    putih = 500
     hitam = 40
-    pink = 20
+    pink = 800
 
     def sedikit(self, x):
         if x >= self.hitam:
@@ -95,7 +95,7 @@ class WarnaAlbum():
 class versiAlbum():
     repackage = 30
     lunatic = 50
-    holiday1 = 40
+    holiday1 = 70
    
     def sedikit(self, x):
         if x >= self.lunatic:
